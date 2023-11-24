@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Gugma Biga",
+    "price": 150,
+    "image": "/images/Vinyls/V1.png"
+  },
+  {
+    "id": 2,
+    "name": "Himamat",
+    "price": 150,
+    "image": "/images/Vinyls/V2.png"
+  },
+  {
+    "id": 3,
+    "name": "Spanish Latte and Gold Skies",
+    "price": 250,
+    "image": "/images/Vinyls/V3.png"
+  },
+  {
+    "id": 4,
+    "name": "Love City",
+    "price": 420,
+    "image": "/images/Vinyls/V4.png"
+  },
+  {
+    "id": 5,
+    "name": "Layat",
+    "price": 120,
+    "image": "/images/Vinyls/V5.png"
+  },
+  {
+    "id": 6,
+    "name": "Kawanangan",
+    "price": 120,
+    "image": "/images/Vinyls/V6.png"
+  },
+  {
+    "id": 7,
+    "name": "Kawanangan",
+    "price": 120,
+    "image": "/images/Vinyls/V6.png"
+  }
+]
