@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css-files/contact.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="/images/globe.png" /></a>
+      </div>
+
+      <div class="nav-links">
+        <ul>
+          <li><a href="about.html" id="js-about">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Connect With Us!</h1>
+      <p>
+        We would love to respond to your queries and help you out with your
+        work. Feel free to submit and get in touch with us
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-l">
+          <h3>Send your request</h3>
+          <form>
+            <div class="input-row">
+              <div class="inputdiv">
+                <label>Name</label>
+                <input type="text" placeholder="Enter name" />
+              </div>
+
+              <div class="inputdiv">
+                <label>Phone</label>
+                <input type="text" placeholder="+639 00 000 000" />
+              </div>
+            </div>
+
+            <div class="input-row">
+              <div class="inputdiv">
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" />
+              </div>
+
+              <div class="inputdiv">
+                <label>Subject</label>
+                <input type="text" placeholder="File" />
+              </div>
+            </div>
+
+            <label>Message</label>
+            <textarea rows="5" placeholder="Write your message"></textarea>
+
+            <button type="submit" id="send" onclick="messageDialog();">
+              SEND
+            </button>
+          </form>
+        </div>
+        <div class="contact-r">
+          <h3>Visit Us</h3>
+          <p>Ramos Village 700 Street Cebu City Philippines.</p>
+          <div class="store">
+            <img
+              src="/images/ilya-blagoderov-t4csj4KilnE-unsplash.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>

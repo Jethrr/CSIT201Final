@@ -21,9 +21,11 @@ nav {
   color: white;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 nav img {
+  margin-top: 5px;
   width: 60px;
   cursor: pointer;
   filter: invert(100%);
@@ -112,4 +114,25 @@ section {
 
 .main-text p {
   line-height: 2;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -80px;
+}
+
+.submit a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  margin-top: 6px;
+  margin-left: 5px;
+}
+ion-icon {
+  font-size: 18px;
 }
