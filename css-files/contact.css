@@ -63,6 +63,7 @@ nav img {
 .container {
   width: 80%;
   margin: 50px auto;
+  height: 100vh;
 }
 
 .contact-container {
@@ -87,7 +88,7 @@ h1 {
 }
 
 .container p {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .input-row {

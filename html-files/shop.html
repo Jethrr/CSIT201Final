@@ -63,9 +63,22 @@
       <div class="buttons">
         <div class="close">CLOSE</div>
         <div class="checkout">
-          <a href="checkout.html">CHECKOUT</a>
+          <a onclick="openPopUpBtn();">Purchase</a>
         </div>
       </div>
+    </div>
+
+    <br />
+
+    <div class="popUp" id="popup">
+      <img src="/images/check.png" alt="" class="imgdiv" />
+      <h2>Thank You!</h2>
+      <p>
+        Ordered Successfully Processed. Visit your email for details and
+        confirmation. Thanks for supporting CSC!
+      </p>
+
+      <button onclick="closePopUpBtn();">Close</button>
     </div>
 
     <script src="/javascript/script.js"></script>

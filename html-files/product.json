@@ -2,43 +2,106 @@
   {
     "id": 1,
     "name": "Gugma Biga",
-    "price": 1000,
+    "artist": "Junior Kilat",
+    "price": 3000,
     "image": "/images/Vinyls/V1.png"
   },
   {
     "id": 2,
     "name": "Himamat",
-    "price": 1500,
+    "artist": "Pxrple, Jong Gallego",
+    "price": 4500,
     "image": "/images/Vinyls/V2.png"
   },
   {
     "id": 3,
     "name": "Spanish Latte and Gold Skies",
-    "price": 1350,
+    "artist": "Seano",
+    "price": 3500,
     "image": "/images/Vinyls/V3.png"
   },
   {
     "id": 4,
     "name": "Love City",
-    "price": 1500,
+    "artist": "Mandaue Nights",
+    "price": 3500,
     "image": "/images/Vinyls/V4.png"
   },
   {
     "id": 5,
     "name": "Layat",
-    "price": 1500,
+    "artist": "Jerika Teodorico",
+    "price": 3000,
     "image": "/images/Vinyls/V5.png"
   },
   {
     "id": 6,
     "name": "Kawanangan",
-    "price": 1800,
+    "artist": "Missing Filemon",
+    "price": 4800,
     "image": "/images/Vinyls/V6.png"
   },
   {
     "id": 7,
-    "name": "Abstrak Painting",
-    "price": 1200,
+    "name": "Abstrak",
+    "artist": "Nico Belmonte",
+    "price": 7000,
     "image": "/images/Vinyls/P1.png"
+  },
+  {
+    "id": 8,
+    "name": "Don Ngero",
+    "artist": "Simbawan Koa",
+    "price": 10000,
+    "image": "/images/Vinyls/P2.png"
+  },
+  {
+    "id": 9,
+    "name": "INAG",
+    "artist": "Fiora Abello",
+    "price": 10000,
+    "image": "/images/Vinyls/P3.png"
+  },
+  {
+    "id": 10,
+    "name": "Ang Pagdating ng Tatlong Hari",
+    "artist": "Art of Rexel",
+    "price": 17000,
+    "image": "/images/Vinyls/P4.png"
+  },
+  {
+    "id": 11,
+    "name": "Banana Kitchen",
+    "artist": "Budoy Marabiles",
+    "price": 10000,
+    "image": "/images/Vinyls/P5.png"
+  },
+  {
+    "id": 12,
+    "name": "Talong Husky",
+    "artist": "Budoy Marabiles",
+    "price": 10000,
+    "image": "/images/Vinyls/P6.png"
+  },
+  {
+    "id": 13,
+    "name": "Kurt Cobain",
+    "artist": "Richard Day",
+    "price": 15000,
+    "image": "/images/Vinyls/P7.png"
+  },
+  {
+    "id": 14,
+    "name": "Art is Dead in Med",
+    "artist": "Noa Rothko",
+    "price": 25000,
+    "image": "/images/Vinyls/P8.png"
+  },
+  {
+    "id": 15,
+    "name": "Catch this piece",
+    "artist": "Bapho Mitch",
+    "price": 7000,
+    "image": "/images/Vinyls/P9.png"
   }
 ]

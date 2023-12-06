@@ -3,9 +3,22 @@ let cart = document.querySelector(".cart");
 let container = document.querySelector(".container");
 let close = document.querySelector(".close");
 const submitContact = document.getElementById("send");
+let popUp = document.getElementById("popup");
 
 function messageDialog() {
-  alert("Request Sent! Stay Tuned.");
+  alert("Message Sent! Stay Tuned.");
+}
+
+function openPopUpBtn() {
+  if (cart !== 0) {
+    popUp.classList.add("openPopUp");
+  } else {
+    alert("Cart is Empty!");
+  }
+}
+
+function closePopUpBtn() {
+  popUp.classList.remove("openPopUp");
 }
 
 iconCart.addEventListener("click", function () {
@@ -42,6 +55,7 @@ function addDataToHTML() {
       newProduct.classList.add("item");
       newProduct.innerHTML = `<img src="${product.image}" alt="">
             <h2>${product.name}</h2>
+            <p>${product.artist}</p>
             <div class="price">₱${product.price}</div>
             <button onclick="addCart(${product.id})">Add To Cart</button>`;
 
@@ -96,7 +110,7 @@ function addCartToHTML() {
         newCart.innerHTML = `<img src="${product.image}">
                     <div class="content">
                         <div class="name">${product.name}</div>
-                        <div class="price">$${product.price} / 1 product</div>
+                        <div class="price">₱${product.price} / 1 product</div>
                     </div>
                     <div class="quantity">
                         <button onclick="changeQuantity(${product.id}, '-')">-</button>
