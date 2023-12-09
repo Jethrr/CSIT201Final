@@ -9,6 +9,12 @@
 
 body {
   height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
 }
 
 nav {
@@ -60,10 +66,6 @@ nav img {
   text-decoration: none;
 }
 
-section {
-  height: 100vh;
-}
-
 .sliding-text-container {
   width: 100%;
   text-transform: uppercase;
@@ -102,7 +104,6 @@ section {
 
 .container {
   margin: auto;
-  height: 100vh;
   width: 75%;
   display: flex;
   align-items: center;
@@ -121,7 +122,8 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: -80px;
+  margin-top: 100px;
+  font-size: 20px;
 }
 
 .submit a {
@@ -130,9 +132,79 @@ section {
 }
 
 .icon {
-  margin-top: 6px;
+  margin-top: 9px;
   margin-left: 5px;
 }
 ion-icon {
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.membership-container {
+  height: 60%;
+  width: 100%;
+
+  padding: 50px;
+}
+
+.membership-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.membership-tier-div {
+  display: flex;
+  justify-content: center;
+}
+
+.membership-tier-div button {
+  width: 100%;
+  padding: 10px;
+  margin: 30px 0;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.membership-tier-div p {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.member-div1,
+.member-div2 {
+  width: 100%;
+
+  border: 1px solid black;
+  padding: 30px;
+  margin: 0 30px;
+}
+
+.membership-tier-div ul {
+  line-height: 2;
+  margin-left: 20px;
+}
+
+.brands-div {
+  margin: 0;
+}
+
+.brands-div h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.brands-img img {
+  width: 200px;
+}
+
+.brands-img {
+  display: flex;
+  justify-content: center;
 }

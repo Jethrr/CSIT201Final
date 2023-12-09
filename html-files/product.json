@@ -36,8 +36,8 @@
   },
   {
     "id": 6,
-    "name": "Kawanangan",
-    "artist": "Missing Filemon",
+    "name": "See You Puhon",
+    "artist": "Kunomii",
     "price": 4800,
     "image": "/images/Vinyls/V6.png"
   },
@@ -103,5 +103,89 @@
     "artist": "Bapho Mitch",
     "price": 7000,
     "image": "/images/Vinyls/P9.png"
+  },
+  {
+    "id": 16,
+    "name": "Para Sa Isla (Rangitoto)",
+    "artist": "PARAISLA",
+    "price": 450,
+    "image": "/images/Vinyls/C1.png"
+  },
+  {
+    "id": 17,
+    "name": "Para Sa Isla (Timberwolf)",
+    "artist": "PARAISLA",
+    "price": 450,
+    "image": "/images/Vinyls/C2.png"
+  },
+  {
+    "id": 18,
+    "name": "Para Sa Isla (Black)",
+    "artist": "PARAISLA",
+    "price": 450,
+    "image": "/images/Vinyls/C3.png"
+  },
+  {
+    "id": 19,
+    "name": "Para Sa Isla (Tote)",
+    "artist": "PARAISLA",
+    "price": 250,
+    "image": "/images/Vinyls/T1.png"
+  },
+  {
+    "id": 20,
+    "name": "Para Sa Isla (Mug)",
+    "artist": "PARAISLA",
+    "price": 395,
+    "image": "/images/Vinyls/M1.png"
+  },
+  {
+    "id": 21,
+    "name": "Para Sa Isla (Mug)",
+    "artist": "PARAISLA",
+    "price": 395,
+    "image": "/images/Vinyls/M2.png"
+  },
+  {
+    "id": 22,
+    "name": "Clodes STODAY (Trucker 1)",
+    "artist": "CLODES",
+    "price": 500,
+    "image": "/images/Vinyls/Clodes1.png"
+  },
+  {
+    "id": 23,
+    "name": "Clodes STODAY (Trucker 2)",
+    "artist": "CLODES",
+    "price": 500,
+    "image": "/images/Vinyls/Clodes2.png"
+  },
+  {
+    "id": 24,
+    "name": "Bisaya BEEzNESS (Trucker 3)",
+    "artist": "CLODES",
+    "price": 500,
+    "image": "/images/Vinyls/Clodes3.png"
+  },
+  {
+    "id": 25,
+    "name": "Power of Creative Direction 1",
+    "artist": "CLODES",
+    "price": 500,
+    "image": "/images/Vinyls/shirt1.png"
+  },
+  {
+    "id": 26,
+    "name": "Power of Creative Direction 2",
+    "artist": "CLODES",
+    "price": 500,
+    "image": "/images/Vinyls/shirt2.png"
+  },
+  {
+    "id": 27,
+    "name": "Make Clodes Great Again",
+    "artist": "CLODES",
+    "price": 500,
+    "image": "/images/Vinyls/shirt3.png"
   }
 ]
