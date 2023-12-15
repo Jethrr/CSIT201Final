@@ -3,22 +3,9 @@ let cart = document.querySelector(".cart");
 let container = document.querySelector(".container");
 let close = document.querySelector(".close");
 const submitContact = document.getElementById("send");
-let popUp = document.getElementById("popup");
 
 function messageDialog() {
   alert("Message Sent! Stay Tuned.");
-}
-
-function openPopUpBtn() {
-  if (cart !== 0) {
-    popUp.classList.add("openPopUp");
-  } else {
-    alert("Cart is Empty!");
-  }
-}
-
-function closePopUpBtn() {
-  popUp.classList.remove("openPopUp");
 }
 
 iconCart.addEventListener("click", function () {

@@ -30,6 +30,17 @@ nav {
   z-index: 10;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login img {
+  width: 40px;
+}
+
 nav img {
   margin-top: 5px;
   width: 60px;
