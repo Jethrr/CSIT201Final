@@ -8,6 +8,22 @@ function messageDialog() {
   alert("Message Sent! Stay Tuned.");
 }
 
+function downloadResume() {
+  const pdfFilePath =
+    "https://drive.google.com/file/d/1GgPqlm0jXAFXKwjoctO-2L2NDEViM3St/view?usp=sharing";
+
+  const isDownloadSupported = "download" in document.createElement("a");
+
+  if (isDownloadSupported) {
+    const link = document.createElement("a");
+    link.href = pdfFilePath;
+    link.download = "resume.pdf";
+    link.click();
+  } else {
+    window.open(pdfFilePath, "_blank");
+  }
+}
+
 iconCart.addEventListener("click", function () {
   if (cart.style.right == "-100%") {
     cart.style.right = "0";

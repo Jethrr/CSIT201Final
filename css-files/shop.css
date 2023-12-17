@@ -29,7 +29,7 @@ nav {
 
 nav img {
   margin-top: 5px;
-  width: 60px;
+  width: 100px;
   cursor: pointer;
   filter: invert(100%);
 }
@@ -441,4 +441,49 @@ header .totalQuantity {
 .returnCart .list .item .returnPrice {
   font-size: large;
   font-weight: bold;
+}
+
+.headline-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  gap: 1rem;
+}
+
+.head-text p {
+  text-align: justify;
+}
+
+.headline-1 img {
+  width: 600px;
+}
+
+.article-div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-div img {
+  width: 80%;
+}
+
+.hd3 img {
+  width: 800px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 0;
+  padding: 50px;
+}
+.headline-3 {
+  height: 100vh;
+  background: url("https://scontent.fceb3-1.fna.fbcdn.net/v/t31.18172-8/22550225_863674627139962_773072226197558697_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=4dc865&_nc_eui2=AeEYKFERFQ0W78ESMe9dymobw6L9v73G8NPDov2_vcbw0xYtTCmNNePfcZaVsraUfTdhOCMOvMdWfPr3Cy3rGMYF&_nc_ohc=qJjJOGN4m54AX_PRF1M&_nc_ht=scontent.fceb3-1.fna&oh=00_AfDJgt0LGFH26JWkPcwg1wKx7_B8vyn7vDc6aKSecRjNrw&oe=65A5FB85");
 }

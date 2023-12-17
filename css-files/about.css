@@ -43,7 +43,7 @@ nav {
 
 nav img {
   margin-top: 5px;
-  width: 60px;
+  width: 100px;
   cursor: pointer;
   filter: invert(100%);
 }
@@ -208,6 +208,7 @@ ion-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 
@@ -218,4 +219,143 @@ ion-icon {
 .brands-img {
   display: flex;
   justify-content: center;
+}
+
+#user-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: linear-gradient(270deg, #090909, #020202, #111111, #444444);
+  background-size: 800% 800%;
+
+  -webkit-animation: gradientBlack 30s ease infinite;
+  -moz-animation: gradientBlack 30s ease infinite;
+  animation: gradientBlack 30s ease infinite;
+}
+
+@-webkit-keyframes gradientBlack {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradientBlack {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientBlack {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.user-img img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.user-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px -2px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 0px 12px -2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 12px -2px rgba(255, 255, 255, 0.75);
+}
+
+.user-container button {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#user-footer {
+  margin-top: 30px;
+}
+
+.user-container a {
+  text-decoration: none;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+ion-icon {
+  color: black;
+}
+
+.copyright a {
+  color: black;
+}
+
+.partner-container {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  background: url("https://scontent.fceb3-1.fna.fbcdn.net/v/t31.18172-8/20116942_1429201820467358_2586762823457435132_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeECGhJe0OB1rOFQlY9IizWMZNyaLTSGVRlk3JotNIZVGY4t5xqNJIKXzultWkG9zbc3BWl8nRY1rYZ6hCn8_icE&_nc_ohc=WGhMRCjo9J4AX8NEvW2&_nc_ht=scontent.fceb3-1.fna&oh=00_AfAa7crlaeavgXVYlMRAj-BBoy2wn4u5qr38TZL6LX9MKQ&oe=65A5E44E");
+}
+
+.brands-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.partner-container h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: black;
+  color: white;
+}
+
+.brands-container img {
+  width: 300px;
+}
+
+.brands-container :hover {
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+}
+
+#member-section h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#member-section a {
+  text-decoration: none;
+  color: black;
+}
+
+#member-section h3 :hover {
+  color: gray;
 }
